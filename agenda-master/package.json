@@ -1,0 +1,21 @@
+{
+  "name": "agenda-master",
+  "version": "1.0.0",
+  "description": "Agenda Caelum",
+  "main": "agenda.js",
+  "scripts": {
+    "front": "lite-server",
+    "back": "json-server --watch db.json --port 4000"
+  },
+  "keywords": [
+    "js",
+    "html",
+    "css"
+  ],
+  "author": "BrunoTbx",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "lite-server": "^2.6.1"
+  }
+}

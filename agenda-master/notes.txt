@@ -1,0 +1,44 @@
+=======
+BACKEND
+=======
+
+
+REST API
+
+CRUD        HTTP (VERBS)
+-Create     POST
+-Read       GET
+-Update     OUT/PATCH
+-Delete     DELETE
+
+
+http://localhost:7000/post
+protocol://basepath/resource  -> route | endpoint
+
+
+ENVIO DE DADOS PARA A BASE DE DADOS
+
+XMLHttpRequest (AJAX) => Antigo - Sincrona
+fetch() => Moderno - Async
+
+        fetch().then(SUCESSO).catch(ERRO)
+
+            fetch() =>  Promisse
+                           |
+                        <pending>
+                        /       \
+                  <fulfilled>   <rejected>
+                  .then()       .catch)
+
+
+===================
+APP - Funcionamento
+===================
+
+1- User preenche dados
+2- User clica em Adicionar
+3- Validação dos dados
+4- Caso não tenha preenchido, apresentar erro
+5- Caso ok, fazer (POST) no backend
+6- Exibir em tela (GET)
+7- Excluir (DELETE) caso usuário clicar no botão Excluir
