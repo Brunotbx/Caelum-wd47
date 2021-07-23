@@ -1,0 +1,34 @@
+
+
+// Anonymous Function
+const onlyNumbers = function() {};
+
+//ARROW
+const onlyNumbers = () => {};
+
+
+
+
+//Anonymous Func
+const getAddress = function(postalCode) {/* CODIGO */}
+
+//AROW
+const getAddress = (postalCode) => {/* CODIGO */}
+
+
+
+
+//Anonymous Func
+const getAddress = function(postalCode) {/* CODIGO */}
+
+//AROW
+const getAddress = postalCode => {/* CODIGO */} //QUANDO É APENAS UM PARAMETRO
+
+//AROW
+const getAddress = (postalCode) => {/* CODIGO */} //MAIS PARAMETROS MANTER PARENTESES
+
+
+
+
+//ARROW
+const postalCodeIsValid = (e) => e.preventDefault(); //Quando é apenas uma linha de execução {} pode remover
